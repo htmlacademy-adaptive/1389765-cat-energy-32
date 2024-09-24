@@ -1,0 +1,28 @@
+
+.academy-logo {
+  width: 27px;
+  height: 34px;
+  text-decoration: none;
+  display: flex;
+  padding-top: 10px;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 15px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 0;
+  }
+}
+
+.academy-logo::before {
+  content: "";
+  background-position: center center;
+  background-size: contain;
+  display: block;
+  width: 27px;
+  height: 34px;
+  mask-image: url("../../icons/stack.svg#html");
+  background-repeat: no-repeat;
+  background-color: #666666;
+}
