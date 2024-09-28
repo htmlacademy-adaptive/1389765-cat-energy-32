@@ -46,7 +46,7 @@
     margin: auto;
     display: grid;
     grid-template-columns: 570px 560px;
-    grid-template-rows: 350px 230px;
+    grid-template-rows: auto auto;
     gap: 20px;
     background: linear-gradient(#ffffff 138px, #f2f2f2 138px);
   }
@@ -59,7 +59,7 @@
 }
 
 .instance__title {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 36px;
   font-weight: 400;
   line-height: 40px;
@@ -67,8 +67,7 @@
   color: $based-color-black;
   padding-top: 25px;
   padding-bottom: 40px;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: auto;
 
   @media (min-width: $tablet-width) {
     padding-bottom: 20px;
@@ -149,8 +148,8 @@
   }
 }
 
-.list-item_main-discription {
-  font-family: "Oswald", sans-serif;
+.instance__item-main-discription {
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 24px;
@@ -170,13 +169,13 @@
     text-align: center;
     width: 162px;
     padding-top: 20px;
-    font-family: "Oswald", sans-serif;
+    font-family: "Oswald", "Arial", sans-serif;
     font-size: 30px;
     padding-bottom: 27px;
   }
 
   @media (min-width: $desktop-width) {
-    font-family: "Oswald", sans-serif;
+    font-family: "Oswald", "Arial", sans-serif;
     font-size: 30px;
     font-weight: 400;
     line-height: 37px;
@@ -217,7 +216,7 @@
 }
 
 .instance-discription-price {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
@@ -230,7 +229,7 @@
 
 
   @media (min-width: $tablet-width) {
-    font-family: "Oswald", sans-serif;
+    font-family: "Oswald", "Arial", sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
@@ -263,8 +262,4 @@
     background-color: #f2f2f2;
     padding-bottom: 50px;
   }
-}
-
-.instance__title {
-  margin: auto;
 }
